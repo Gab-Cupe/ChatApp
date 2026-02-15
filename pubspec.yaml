@@ -1,0 +1,70 @@
+name: chatapp
+description: "A personal app for two person."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.13.0
+  firebase_database: ^11.3.5
+  image_picker: ^1.1.2
+  universal_html: ^2.2.4
+  file_picker: ^10.1.1
+  path_provider: ^2.1.5
+  http: ^1.3.0
+  confetti: ^0.8.0
+  flutter_launcher_icons: ^0.14.3
+  shared_preferences: ^2.5.3
+  flutter_local_notifications: ^19.1.0
+  cached_network_image: ^3.4.1
+  video_player: ^2.9.5
+  flutter_gif: ^0.0.4
+  flutter_animate: ^4.5.2
+  youtube_player_iframe: ^5.2.1
+  webview_flutter: ^4.13.0
+  webview_flutter_android: ^4.8.0
+  webview_flutter_wkwebview: ^3.22.1
+  provider: ^6.1.5
+  gif: ^2.3.0
+  shimmer: ^3.0.0
+  record: ^6.0.0
+  audioplayers: ^6.5.0
+  visibility_detector: ^0.4.0+2
+  google_fonts: ^6.2.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/image.png
+    - assets/login/desktop.png
+    - assets/login/mobile.png
+  fonts:
+    - family: Noto
+      fonts:
+        - asset: fonts/NotoSans-Regular.ttf
+        - asset: fonts/NotoSans-Symbols.ttf    
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/icon/icon.png"
+    background_color: "#ffffff"
+    theme_color: "#42a5f5"
+  windows:
+    generate: true
+    image_path: "assets/icon/icon.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/icon/icon.png"
