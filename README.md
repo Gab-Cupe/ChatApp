@@ -12,6 +12,8 @@
 
 **A beautiful, feature-rich real-time chat application built with Flutter and Firebase for couples.**
 
+[![Buy me a coffee](https://img.shields.io/badge/Buy_me_a_coffe-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/gabcupe)
+
 </div>
 
 ---
